@@ -1,0 +1,12 @@
+@import "../../scss/colors.scss";
+@import "../../scss/mixin.scss";
+
+.Home{
+    width: 90%;
+    height: auto;
+    background-color: $color_lightgray;
+    margin: 0 auto;
+    @include display(flex,space-between,center);
+    flex-wrap: wrap;
+    min-width: 300px;
+}

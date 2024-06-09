@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    height: 950px;
+    max-height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 90%;
+    height: 50px;
+    background-color: #F9F5F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px
+}
+
+.box {
+    width: 120px;
+    height: 30px;
+    background-color: #F8485F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 3px;
+    color: #FAFFFF;
+
+}
+
+.box i {
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.box b {
+    text-indent: 5px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.b {
+    text-align: left !important;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    color: #F8485F;
+
+}
+
+.score strong {
+    margin-right: 5px;
+}
+
+section {
+    width: 90%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8485F;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: visible;
+    margin-bottom: 20px;
+}
+
+.time {
+    width: 90px;
+    height: 90px;
+    background-color: #F8485F;
+    border: 10px solid #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    color: #F9F5F6;
+
+}
+
+.count {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F9F5F6;
+
+}
+
+.count p {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #F9F5F6;
+}
+
+.count h5 {
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+
+article em {
+    width: 95%;
+    min-height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.variant {
+    width: 90%;
+    height: 50px;
+    background-color: #FAFFFF;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.variant::before {
+    width: 30px;
+    height: 40px;
+    background-color: #F8485F;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAFFFF;
+}
+
+.variant:nth-child(2)::before {
+    content: "A";
+}
+
+.variant:nth-child(3)::before {
+    content: "B";
+}
+
+.variant:nth-child(4)::before {
+    content: "C";
+}
+
+.variant:nth-child(5)::before {
+    content: "D";
+}
+
+.select {
+    background-color: lightblue !important;
+}
+
+.success {
+    background-color: green !important;
+}
+
+.error {
+    background-color: red !important;
+}
+
+.remove {
+    visibility: hidden;
+}
+
+.disabled{
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+footer {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer button {
+    width: calc(50% - 2px);
+    height: 80px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F5F6;
+    color: #F8485F;
+    cursor: pointer;
+}
+
+footer button h5 {
+    line-height: 30px
+}
+
+footer button p {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #F8485F;
+    border-radius: 5px;
+    text-align: center;
+    color: #EEEEEE;
+
+}

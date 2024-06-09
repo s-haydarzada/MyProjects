@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 95%;
+    height: 70px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left {
+    width: 50%;
+    height: 60px;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.left div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.left div h2 {
+    font-size: 20px;
+}
+
+.right {
+    width: 50%;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.right p {
+    font-size: 18px;
+}
+
+section {
+    width: 334px;
+    height: 334px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section div {
+    margin-left: 1px;
+    width: 110px;
+    height: 110px;
+    background-color: red;
+
+}
+
+section div:hover {
+    background-color: lightpink;
+    cursor: pointer;
+}
+
+
+.star {
+    background-image: url(../img/goldstar.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    width: 95%;
+    height: 70px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav button {
+    width: 50px;
+    height: 50px;
+    background-color: darksalmon;
+    margin: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

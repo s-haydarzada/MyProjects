@@ -1,0 +1,13 @@
+@import "../../scss/colors.scss";
+@import "../../scss/mixin.scss";
+
+.Shop{
+    width: 90%;
+    height: auto;
+    background-color: $color_white;
+    @include display(flex, space-between, center);
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}

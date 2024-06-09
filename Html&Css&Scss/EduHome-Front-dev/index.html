@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>EduHome</title>
+  </head>
+  <body>
+    <header id="header" class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-5 col-6 logo-div">
+            <div class="logo">
+              <a href="/index.html">
+                <img src="/src/images/logo2.webp" alt="edu-home" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-7 col-6 menu-div">
+            <div class="main-navbar">
+              <div class="main-menu">
+                <div class="main-nav">
+                  <ul class="main-nav-ul">
+                    <li class="main-nav-li">
+                      <a href="/index.html" class="main-nav-a">Home</a>
+                      <ul class="dropdown-ul">
+                        <li class="dropdown-ul-li">
+                          <a href="/index.html">Home One</a>
+                        </li>
+                        <li class="dropdown-ul-li">
+                          <a href="/index.html">Home Two</a>
+                        </li>
+                        <li class="dropdown-ul-li">
+                          <a href="/index.html">Home Three</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/about.html" class="main-nav-a">About</a>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/courses.html" class="main-nav-a">Courses</a>
+                      <ul class="dropdown-ul">
+                        <li class="dropdown-ul-li">
+                          <a href="/courses.html">Courses</a>
+                        </li>
+                        <li class="dropdown-ul-li">
+                          <a href="/coursedetails.html">Course Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/event.html" class="main-nav-a">Event</a>
+                      <ul class="dropdown-ul">
+                        <li class="dropdown-ul-li">
+                          <a href="/event.html">Event</a>
+                        </li>
+                        <li class="dropdown-ul-li">
+                          <a href="/eventdetails.html">Event Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/teacher.html" class="main-nav-a">Teacher</a>
+                      <ul class="dropdown-ul">
+                        <li class="dropdown-ul-li">
+                          <a href="/teacher.html">Teacher</a>
+                        </li>
+                        <li class="dropdown-ul-li">
+                          <a href="/teachers_details.html">Teacher Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/blog.html" class="main-nav-a">Blog</a>
+                      <ul class="dropdown-ul">
+                        <li class="dropdown-ul-li">
+                          <a href="/blog.html">Blog</a>
+                        </li>
+                        <li class="dropdown-ul-li">
+                          <a href="/blogdetails.html">Blog Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/contact.html" class="main-nav-a">Contact</a>
+                    </li>
+                    <li class="main-nav-li">
+                      <a href="/about.html" class="main-nav-a">Buy Now</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="search-button">
+                <a href="" class="header-search-button">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <div class="search-input-div">
+                  <div class="search-form">
+                    <form action="">
+                      <input type="text" placeholder="Search here..." />
+                      <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <a href="" class="burger-btn">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 mobile-header">
+            <div class="mobile-menu">
+              <div class="main-bar">
+                <nav class="main-mob-nav">
+                  <ul class="main-mob-nav-ul">
+                    <li class="main-mob-nav-li">
+                      <a href="/index.html" class="main-mob-nav-a">Home</a>
+                      <a href="" class="plus-minus-btn" data-index="1">+</a>
+                      <ul class="mob-nav-toggle" data-index="1">
+                        <li class="mob-nav-toggle-li">
+                          <a href="/index.html" class="mob-nav-toggle-a"
+                            >Home One</a
+                          >
+                        </li>
+                        <li class="mob-nav-toggle-li">
+                          <a href="/index.html" class="mob-nav-toggle-a"
+                            >Home Two</a
+                          >
+                        </li>
+                        <li class="mob-nav-toggle-li">
+                          <a href="/index.html" class="mob-nav-toggle-a"
+                            >Home Three</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/about.html" class="main-mob-nav-a">About</a>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/courses.html" class="main-mob-nav-a">Courses</a>
+                      <a href="" class="plus-minus-btn" data-index="2">+</a>
+                      <ul class="mob-nav-toggle" data-index="2">
+                        <li class="mob-nav-toggle-li">
+                          <a href="/courses.html" class="mob-nav-toggle-a"
+                            >Courses</a
+                          >
+                        </li>
+                        <li class="mob-nav-toggle-li">
+                          <a
+                            href="/coursedetails.html"
+                            #
+                            class="mob-nav-toggle-a"
+                            >Course Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/event.html" class="main-mob-nav-a">Event</a>
+                      <a href="" class="plus-minus-btn" data-index="3">+</a>
+                      <ul class="mob-nav-toggle" data-index="3">
+                        <li class="mob-nav-toggle-li">
+                          <a href="/event.html" class="mob-nav-toggle-a"
+                            >Event</a
+                          >
+                        </li>
+                        <li class="mob-nav-toggle-li">
+                          <a href="/eventdetails.html" class="mob-nav-toggle-a"
+                            >Event Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/teacher.html" class="main-mob-nav-a"
+                        >Teachers</a
+                      >
+                      <a href="" class="plus-minus-btn" data-index="4">+</a>
+                      <ul class="mob-nav-toggle" data-index="4">
+                        <li class="mob-nav-toggle-li">
+                          <a href="/teacher.html" class="mob-nav-toggle-a"
+                            >Teachers</a
+                          >
+                        </li>
+                        <li class="mob-nav-toggle-li">
+                          <a
+                            href="/teachers_details.html"
+                            class="mob-nav-toggle-a"
+                            >Teacher Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/blog.html" class="main-mob-nav-a">Blog</a>
+                      <a href="" class="plus-minus-btn" data-index="5">+</a>
+                      <ul class="mob-nav-toggle" data-index="5">
+                        <li class="mob-nav-toggle-li">
+                          <a href="/blog.html" class="mob-nav-toggle-a">Blog</a>
+                        </li>
+                        <li class="mob-nav-toggle-li">
+                          <a href="/blogdetails.html" class="mob-nav-toggle-a"
+                            >Blog Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/contact.html" class="main-mob-nav-a">Contact</a>
+                    </li>
+                    <li class="main-mob-nav-li">
+                      <a href="/about.html" class="main-mob-nav-a">Buy Now</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="slider-container" class="slider-area three">
+      <div class="slider-owl owl-theme owl-carousel owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+          <div class="owl-stage">
+            <div class="owl-item">
+              <div
+                class="single-slide item"
+                style="background-image: url(./src/images/slider1.webp)"
+              >
+                <div class="slider-content-area">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-7">
+                        <div class="slide-content-wrapper">
+                          <div class="slide-content">
+                            <h3>EDUCATION MAKES</h3>
+                            <h2>PROPER HUMANITY</h2>
+                            <p>
+                              I must explain to you how all this mistaken idea
+                              of denouncing pleasure and prsing pain was born
+                              and I will give you a complete account of the
+                              system
+                            </p>
+                            <a class="default-btn" href="about.html"
+                              >Learn more</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-5">
+                        <div class="slider-img">
+                          <img src="./src/images/home.webp" alt="slider" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item">
+              <div
+                class="single-slide item"
+                style="background-image: url(./src/images/slider2.webp)"
+              >
+                <div class="slider-content-area">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-7">
+                        <div class="slide-content-wrapper">
+                          <div class="slide-content">
+                            <h3>EDUCATION MAKES</h3>
+                            <h2>PROPER HUMANITY</h2>
+                            <p>
+                              I must explain to you how all this mistaken idea
+                              of denouncing pleasure and prsing pain was born
+                              and I will give you a complete account of the
+                              system
+                            </p>
+                            <a class="default-btn" href="about.html"
+                              >Learn more</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-5">
+                        <div class="slider-img">
+                          <img src="./src/images/home.webp" alt="slider" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item">
+              <div
+                class="single-slide item"
+                style="background-image: url(./src/images/slider3.webp)"
+              >
+                <div class="slider-content-area">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-7">
+                        <div class="slide-content-wrapper">
+                          <div class="slide-content">
+                            <h3>EDUCATION MAKES</h3>
+                            <h2>PROPER HUMANITY</h2>
+                            <p>
+                              I must explain to you how all this mistaken idea
+                              of denouncing pleasure and prsing pain was born
+                              and I will give you a complete account of the
+                              system
+                            </p>
+                            <a class="default-btn" href="about.html"
+                              >Learn more</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="slider-img">
+                          <img src="./src/images/home.webp" alt="slider" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses">
+      <div class="pt-150 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <img src="./src/images/section.webp" alt="section-title" />
+                <h2>COURSES WE OFFER</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-course">
+                <div class="course-img">
+                  <a href="/coursedetails.html"
+                    ><img src="./src/images/course1.webp" alt="course" />
+                    <div class="course-hover">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="course-content">
+                  <h3><a href="/coursedetails.html">CSE ENGINEERING</a></h3>
+                  <p>
+                    I must explain to you how all this a mistaken idea of
+                    denouncing great explorer of the rut the is lder of human
+                    happiness
+                  </p>
+                  <a class="default-btn" href="/coursedetails.html"
+                    >read more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-course">
+                <div class="course-img">
+                  <a href="/coursedetails.html"
+                    ><img src="./src/images/course2.webp" alt="course" />
+                    <div class="course-hover">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="course-content">
+                  <h3><a href="/coursedetails.html">CSE ENGINEERING</a></h3>
+                  <p>
+                    I must explain to you how all this a mistaken idea of
+                    denouncing great explorer of the rut the is lder of human
+                    happiness
+                  </p>
+                  <a class="default-btn" href="/coursedetails.html"
+                    >read more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-course mb-0">
+                <div class="course-img">
+                  <a href="/coursedetails.html"
+                    ><img src="./src/images/course3.webp" alt="course" />
+                    <div class="course-hover">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="course-content">
+                  <h3><a href="/coursedetails.html">CSE ENGINEERING</a></h3>
+                  <p>
+                    I must explain to you how all this a mistaken idea of
+                    denouncing great explorer of the rut the is lder of human
+                    happiness
+                  </p>
+                  <a class="default-btn" href="/coursedetails.html"
+                    >read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <section class="pt-140 pb-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="notice_left mb-25 pb-25">
+                <h3>TAKE A VIDEO TOUR</h3>
+                <div class="notice_video">
+                  <div class="video_icon">
+                    <a href="" class="video-popup-btn">
+                      <i class="fa-regular fa-circle-play"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="notice_right">
+                <h3>notice board</h3>
+                <div class="notice_down" tabindex="1">
+                  <div class="single_notice_right mb-23 pb-20">
+                    <h4>5, June 2022</h4>
+                    <p>
+                      I must explain to you how all this mistaken idea of
+                      denouncing plasure and praising pain was born and I will
+                      give you a complete
+                    </p>
+                  </div>
+                  <div class="single_notice_right hidden-sm mb-23 pb-20">
+                    <h4>4, June 2022</h4>
+                    <p>
+                      I must explain to you how all this mistaken idea of
+                      denouncing plasure and praising pain was born and I will
+                      give you a complete
+                    </p>
+                  </div>
+                  <div class="single_notice_right pb-70">
+                    <h4>3, June 2022</h4>
+                    <p>
+                      I must explain to you how all this mistaken idea of
+                      denouncing plasure and praising pain was born and I will
+                      give you a complete
+                    </p>
+                  </div>
+                  <div class="single_notice_right mb-23 pb-20">
+                    <h4>5, June 2022</h4>
+                    <p>
+                      I must explain to you how all this mistaken idea of
+                      denouncing plasure and praising pain was born and I will
+                      give you a complete
+                    </p>
+                  </div>
+                  <div class="single_notice_right hidden-sm mb-23 pb-20">
+                    <h4>4, June 2022</h4>
+                    <p>
+                      I must explain to you how all this mistaken idea of
+                      denouncing plasure and praising pain was born and I will
+                      give you a complete
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="best_education">
+      <div class="pb-135 pt-130 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-content">
+                <h2><span>EDUHOME</span> the best education theme for you</h2>
+                <p>
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleure and prsing pain was born and I will give you a complete
+                  account of the system, and expound the actual teachings the
+                  master-builder of humanit happiness
+                </p>
+                <p>
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleure and prsing pain was born and I will give you a complete
+                  account of the system
+                </p>
+                <a class="default-btn" href="/about.html">buy now</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-img">
+                <img src="./src/images/about.webp" alt="about" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events">
+      <div class="text-center pt-100 pb-115">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <img src="./src/images/section.webp" alt="section-title" />
+                <h2>UPCOMMING EVENTS</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single_event mb-35">
+                <div class="event_img">
+                  <a href="/eventdetails.html">
+                    <img src="./src/images/event5.webp" alt="event" />
+                    <div class="course_hover">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                  <div class="event_date">
+                    <h3>20 <span>jun</span></h3>
+                  </div>
+                </div>
+                <div class="event_content text-start">
+                  <h4><a href="/eventdetails.html">ADVANCE PHP WORKSHOP</a></h4>
+                  <ul>
+                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
+                    <li><span>venue</span> New Yourk City</li>
+                  </ul>
+                  <div class="event_content_right">
+                    <a class="default-btn" href="/eventdetails.html"
+                      >join now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single_event mb-35">
+                <div class="event_img">
+                  <a href="/eventdetails.html">
+                    <img src="./src/images/event6.webp" alt="event" />
+                    <div class="course_hover">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                  <div class="event_date">
+                    <h3>18 <span>jun</span></h3>
+                  </div>
+                </div>
+                <div class="event_content text-start">
+                  <h4>
+                    <a href="/eventdetails.html">learning english history</a>
+                  </h4>
+                  <ul>
+                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
+                    <li><span>venue</span> New Yourk City</li>
+                  </ul>
+                  <div class="event_content_right">
+                    <a class="default-btn" href="/eventdetails.html"
+                      >join now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single_event">
+                <div class="event_img">
+                  <a href="/eventdetails.html">
+                    <img src="./src/images/event7.webp" alt="event" />
+                    <div class="course_hover">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                  <div class="event_date">
+                    <h3>16 <span>jun</span></h3>
+                  </div>
+                </div>
+                <div class="event_content text-start">
+                  <h4>
+                    <a href="/eventdetails.html">UI & UX DESIGNER MEETUP</a>
+                  </h4>
+                  <ul>
+                    <li><span>time:</span> 9.00 AM - 4.45 PM</li>
+                    <li><span>venue</span> New Yourk City</li>
+                  </ul>
+                  <div class="event_content_right">
+                    <a class="default-btn" href="/eventdetails.html"
+                      >join now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="text-center">
+        <div class="container">
+          <div class="row">
+            <div
+              class="testimonial-owl owl-theme owl-carousel owl-loaded owl-drag"
+            >
+              <div class="single_testimonial">
+                <div class="testimonial_info">
+                  <div class="testimonial_img">
+                    <img
+                      src="./src/images/testimonial.webp"
+                      alt="testimonial"
+                    />
+                  </div>
+                  <div class="testimonial_content">
+                    <p>
+                      I must explain to you how all this mistaken idea of
+                      denoung pleure and praising pain was born and I will give
+                      you a coete account of the system, and expound the actual
+                    </p>
+                    <h4>David Morgan</h4>
+                    <h5>Student, CSE</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="pt-150 pb-150 mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title text-center">
+                <img src="./src/images/section.webp" alt="section-title" />
+                <h2>LATEST FROM BLOG</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single_blog">
+                <div class="blog_img">
+                  <a href="blog-details.html"
+                    ><img src="./src/images/blog1.webp" alt="blog"
+                  /></a>
+                  <div class="blog_hover">
+                    <a href="blog-details.html"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="blog_content">
+                  <div class="blog_up">
+                    <p>
+                      By Alex / June 20, 2022 /
+                      <i class="fa-regular fa-comment"></i> 4
+                    </p>
+                  </div>
+                  <div class="blog_bottom">
+                    <h2>
+                      <a href="blog-details.html"
+                        >I must explain to you how all this a mistaken idea
+                      </a>
+                    </h2>
+                    <a href="blog-details.html">read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single_blog">
+                <div class="blog_img">
+                  <a href="blog-details.html"
+                    ><img src="./src/images/blog2.webp" alt="blog"
+                  /></a>
+                  <div class="blog_hover">
+                    <a href="blog-details.html"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="blog_content">
+                  <div class="blog_up">
+                    <p>
+                      By Alex / June 20, 2022 /
+                      <i class="fa-regular fa-comment"></i> 4
+                    </p>
+                  </div>
+                  <div class="blog_bottom">
+                    <h2>
+                      <a href="blog-details.html"
+                        >I must explain to you how all this a mistaken idea
+                      </a>
+                    </h2>
+                    <a href="blog-details.html">read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single_blog mb-0">
+                <div class="blog_img">
+                  <a href="blog-details.html"
+                    ><img src="./src/images/blog3.webp" alt="blog"
+                  /></a>
+                  <div class="blog_hover">
+                    <a href="blog-details.html"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="blog_content">
+                  <div class="blog_up">
+                    <p>
+                      By Alex / June 20, 2022 /
+                      <i class="fa-regular fa-comment"></i> 4
+                    </p>
+                  </div>
+                  <div class="blog_bottom">
+                    <h2>
+                      <a href="blog-details.html"
+                        >I must explain to you how all this a mistaken idea
+                      </a>
+                    </h2>
+                    <a href="blog-details.html">read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe_area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="subscribe_content">
+                <h2>subscribe our newsletter</h2>
+                <p>I must explain to you how all this mistaken idea</p>
+              </div>
+              <div class="newsletter_form">
+                <form action="">
+                  <input
+                    type="email"
+                    class="email"
+                    placeholder="Enter your e-mail adress"
+                    required
+                  />
+                  <button type="submit" class="default-btn">subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="captions pr-60">
+                <div class="footer-logo">
+                  <a href="index.html">
+                    <img src="./src/images/logo2.webp" alt="eduhome" />
+                  </a>
+                </div>
+                <p>
+                  I must explain to you how all this mistaken idea of denoung
+                  pleure and praising pain was born and give you a coete account
+                  of the system.
+                </p>
+                <div class="footer-social">
+                  <ul>
+                    <li>
+                      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="captions">
+                <h3>information</h3>
+                <ul>
+                  <li><a href="#">addmission</a></li>
+                  <li><a href="#">Academic Calender</a></li>
+                  <li><a href="/event.html">Event List</a></li>
+                  <li><a href="#">Hostel & Dinning</a></li>
+                  <li><a href="#">TimeTable</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-4 pt-lg-0">
+              <div class="captions">
+                <h3>useful links</h3>
+                <ul>
+                  <li><a href="/courses.html">our courses</a></li>
+                  <li><a href="/about.html">about us</a></li>
+                  <li><a href="/teacher.html">teachers &amp; faculty</a></li>
+                  <li><a href="#">teams & conditions</a></li>
+                  <li><a href="/events.html">our events</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
+              <div class="captions">
+                <h3>get in touch</h3>
+                <p>
+                  Your address goes here, Street<br />City, Roadno 785 New York
+                </p>
+                <p>+880 548 986 898 87<br />+880 659 785 658 98</p>
+                <p>info@eduhome.com<br />www.eduhome.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Copyright © <a href="">Eduhome</a> 2022. All Right Reserved By
+                <a href="" target="_blank">Hastech.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="popup-video-background"></div>
+
+    <div class="popup-video-main-holder">
+      <div class="popup-video-main">
+        <div class="popup-video-content">
+          <div class="iframe-holder">
+            <button type="button" class="popup-close-btn">x</button>
+            <iframe
+              src="https://www.youtube.com/embed/fkoEj95puX0?si=qwdnA9Su6n19FoFy"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script src="/src/js/main.js"></script>
+</html>

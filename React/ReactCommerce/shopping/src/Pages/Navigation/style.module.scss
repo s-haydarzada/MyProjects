@@ -1,0 +1,55 @@
+@import "../../scss/mixin.scss";
+@import "../../scss/colors.scss";
+
+.Navigation {
+    width: 90%;
+    height: 70px;
+    background-color: $color_white;
+    margin: 0 auto;
+    @include display(flex, space-between, center);
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        background-color: $color_transparent;
+        font-size: 40px;
+        text-align: center;
+        @include display(flex, center, center);
+
+    }
+
+    .navContainer {
+        width: 200px;
+        height: 70px;
+        background-color: $color_transparent;
+        @include display(flex, space-around, center);
+        font-size: 20px;
+
+        .navLink {
+            text-decoration: none;
+        }
+
+        .bag {
+
+
+            .container {
+                position: relative;
+
+                .badge {
+                    width: 20px;
+                    height: 20px;
+                    background-color: $color_orange;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: 15px;
+                    left: 15px;
+                    @include display(flex, center, center);
+                    font-size: 14px;
+                }
+
+            }
+        }
+
+
+    }
+}

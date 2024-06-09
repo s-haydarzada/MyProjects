@@ -1,0 +1,10 @@
+@import "../../scss/colors.scss";
+@import "../../scss/mixin.scss";
+
+.signIn {
+    margin: 20px auto;
+    width: 90%;
+    height: 100vh;
+    background: $color_white;
+    @include display(flex, space-evenly, flex-start);
+}

@@ -1,0 +1,66 @@
+@import "../../scss/mixin.scss";
+@import "../../scss/colors.scss";
+
+.buttonContainer {
+    min-width: 200px;
+    width: auto;
+    height: 50px;
+    font-size: 14px;
+    background-color: $color_black;
+    color: $color_white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: 500;
+    @include display(flex, center, center);
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color_white;
+        color: $color_black;
+        border: 1px solid $color_black;
+        transition: all .3s ease-in;
+    }
+
+    &.googleSignIn {
+        width: 250px;
+        background-color: $color_skyblue;
+        color: $color_white;
+
+        &:hover {
+            background-color: $color_lightblue;
+            color: $color_black;
+            border: none;
+            transition: all .3s ease-in;
+
+        }
+    }
+
+
+    &.invert {
+        background-color: $color_white;
+        color: $color_black;
+        border: 1px solid $color_black;
+
+        &:hover {
+            background-color: $color_black;
+            color: $color_white;
+            border: none;
+            transition: all .3s ease-in;
+
+        }
+    }
+    &.Cart {
+        background-color: $color_black;
+        color: $color_white;
+        border: 1px solid $color_black;
+        
+        &:hover {
+            background-color: $color_white;
+            color: $color_black;
+            border: none;
+            transition: all .3s ease-in;
+
+        }
+    }
+
+}
