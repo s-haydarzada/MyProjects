@@ -17,7 +17,7 @@ const Shop = () => {
   const { products, setProducts } = useContext(ProductContext);
   const [brand, setBrand] = useState([]);
   const [sortType, setSortType] = useState("title-ascending");
-  const [viewMode, setViewMode] = useState("grid"); // Yeni state
+  const [viewMode, setViewMode] = useState("grid"); 
 
   const [filterOptions, setFilterOptions] = useState({
     page: 1,
@@ -41,8 +41,7 @@ const Shop = () => {
       totalCount: 0,
     },
     onSubmit: async (values) => {
-      console.log(values);
-
+console.log(values)
       try {
         const filteredProducts = await ProductFilterAndSearching(
           values.page,
@@ -51,6 +50,7 @@ const Shop = () => {
           values.maxPrice,
           values.stock
         );
+        console.log(filteredProducts)
         setProducts(filteredProducts.data.product);
         setFilterOptions((prevOptions) => ({
           ...prevOptions,

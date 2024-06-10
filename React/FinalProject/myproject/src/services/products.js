@@ -100,8 +100,8 @@ export const ProductSearching = async (search) => {
     return data;
 }
 
-export const ProductFilterAndSearching = async (page, perPage, minPrice, maxPrice,stock) => {
-    let { data } = await API.get(`${import.meta.env.VITE_API_KEY}/site/products?page=${page}&perPage=${perPage}&minPrice=${minPrice}&maxPrice=${maxPrice}&stock=${stock}`);
+export const ProductFilterAndSearching = async (page, perPage, minPrice, maxPrice) => {
+    let { data } = await API.get(`${import.meta.env.VITE_API_KEY}/site/products?page=${page}&perPage=${perPage}&minPrice=${minPrice}&maxPrice=${maxPrice}`);
     return data;
 }
   
